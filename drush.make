@@ -1,4 +1,4 @@
-;; drush make file for engineering7.dev.library.cornell.edu
+;; drush make file for catherwood.dev.library.cornell.edu
 ;;
 
 core = 7.x
@@ -41,11 +41,11 @@ projects[mollom] = "2.13"
 projects[migrate] = "2.8"
 projects[multiblock] = "1.2"
 projects[node_export] = "3.0"
-;;projects[catherwood][directory_name] = "catherwood"
-;;projects[catherwood][download][branch] = "catherwood"
-;;projects[catherwood][download][type] = "git"
-;;projects[catherwood][download][url] = "git@github.com:cul-it/base-library-cornell-edu-theme.git"
-;;projects[catherwood][type] = "theme"
+projects[catherwood][directory_name] = "catherwood"
+projects[catherwood][download][branch] = "catherwood"
+projects[catherwood][download][type] = "git"
+projects[catherwood][download][url] = "git@github.com:cul-it/base-library-cornell-edu-theme.git"
+projects[catherwood][type] = "theme"
 projects[pathauto] = "1.2"
 projects[pathologic] = "2.12"
 projects[redirect] = "1.0-rc3"
