@@ -41,6 +41,7 @@ projects[catherwood_field_bases][download][url] = "git@github.com:cul-it/catherw
 projects[catherwood_field_bases][type] = "module"
 projects[features_extra] = "1.0-beta1"
 projects[feeds] = "2.0-beta1"
+projects[field_collection] = "1.0-beta8"
 projects[imce] = "1.9"
 projects[imce_wysiwyg] = "1.0"
 projects[job_scheduler] = '2.0-alpha3'
