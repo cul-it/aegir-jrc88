@@ -3,7 +3,7 @@
 
 core = 7.x
 api = 2
-projects[drupal][version] = "7.38"
+projects[drupal][version] = "7.39"
 
 libraries[bootstrap][destination] = themes/bootstrap
 libraries[bootstrap][directory_name] = "bootstrap"
@@ -19,7 +19,7 @@ projects[block_class] = "2.1"
 projects[blockreference] = "2.2"
 projects[bootstrap] = "3.0"
 projects[ckeditor] = "1.16"
-projects[ctools] = "1.7"
+projects[ctools] = "1.9"
 projects[custom_breadcrumbs] = "2.0-beta1"
 projects[date] = "2.8"
 projects[diff] = "3.2"
@@ -62,6 +62,11 @@ projects[catherwood][directory_name] = "catherwood"
 projects[catherwood][download][branch] = "catherwood"
 projects[catherwood][download][type] = "git"
 projects[catherwood][download][url] = "git@github.com:cul-it/base-library-cornell-edu-theme.git"
+projects[catherwood][type] = "theme"
+projects[catherwood][directory_name] = "caththeme"
+projects[catherwood][download][branch] = "theme"
+projects[catherwood][download][type] = "git"
+projects[catherwood][download][url] = "git@github.com:cul-it/catherwood-library-cornell-edu.git"
 projects[catherwood][type] = "theme"
 projects[pathauto] = "1.2"
 projects[pathologic] = "2.12"
