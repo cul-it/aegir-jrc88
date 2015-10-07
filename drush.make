@@ -78,6 +78,7 @@ projects[simplesaml_authentication_cul][location] = "https://featureserver.libra
 projects[simplesaml_authentication_cul][type] = "module"
 projects[simplesamlphp_auth] = "2.0-alpha2"
 projects[strongarm] = "2.0"
+projects[superfish] = "1.9"
 projects[token] = "1.6"
 projects[uuid] = "1.0-alpha6"
 projects[views] = "3.11"
