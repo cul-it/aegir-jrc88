@@ -165,7 +165,7 @@ function _wit_email_articles_to_list($articles, $date) {
     $to_address,
     LANGUAGE_NONE,
     $params,
-    'catherwoodWIT@cornell.edu'
+    'jrc88@cornell.edu'
   );
 }
 
@@ -203,7 +203,7 @@ To UNSUBSCRIBE, send email to: lyris@cornell.edu containing this single line of 
 function wit_mail($key, &$message, $params) {
   $message['headers']['MIME-Version'] = '1.0';
   $message['headers']['Content-Type'] = 'text/plain;charset=utf-8';
-  $message['headers']['Bcc'] = 'ilrwebemailcc-mailbox@cornell.edu';
+  $message['headers']['Bcc'] = 'jrc88@cornell.edu';
   $message['subject'] = $params['subject'];
   $message['body'][] = $params['content'];
 }
