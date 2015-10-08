@@ -23,7 +23,7 @@ function wit_node_update($node) {
       else {
         drupal_set_message(t("Today's WIT articles have been published."), 'status');
         $articles = _wit_get_articles_by_date($article_date);
-        _wit_email_articles_to_list($articles, $article_date);
+        #_wit_email_articles_to_list($articles, $article_date);
       }
     }
   }
