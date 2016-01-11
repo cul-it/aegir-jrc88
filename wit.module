@@ -152,7 +152,7 @@ function _wit_email_articles_to_list($articles, $date) {
   $formatted_date = date_format($date_object, 'l, F d, Y');
   $body = _wit_generate_email_body($articles, $formatted_date);
 
-  $to_address = variable_get('jrc88@cornell.edu');
+  $to_address = variable_get('wit-L@cornell.edu');
 
   $params = array(
     'subject' => 'Workplace Issues Today',
@@ -165,7 +165,7 @@ function _wit_email_articles_to_list($articles, $date) {
     $to_address,
     LANGUAGE_NONE,
     $params,
-    'jrc88@cornell.edu'
+    'catherwoodWIT@cornell.edu'
   );
 }
 
@@ -188,7 +188,7 @@ ________________________________________________________
   }
 
   $body .= "________________________________________________________
-Questions about WIT selection criteria or finding the articles we write about? Check our web site at http://www.ilr.cornell.edu//research/worldOfWorkNews/wit
+Questions about WIT selection criteria or finding the articles we write about? Check our web site at http://catherwood.library.cornell.edu/workplace-issues-today
 
 ________________________________________________________
 To UNSUBSCRIBE, send email to: lyris@cornell.edu containing this single line of text: leave wit-L
