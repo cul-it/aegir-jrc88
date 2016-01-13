@@ -152,7 +152,7 @@ function _wit_email_articles_to_list($articles, $date) {
   $formatted_date = date_format($date_object, 'l, F d, Y');
   $body = _wit_generate_email_body($articles, $formatted_date);
 
-  $to_address = 'wit-L@cornell.edu'
+  $to_address = 'wit-L@cornell.edu';
 
   $params = array(
     'subject' => 'Workplace Issues Today',
