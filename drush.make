@@ -53,6 +53,7 @@ projects[feeds] = "2.0-beta2"
 projects[field_collection] = "1.0-beta11"
 projects[imce] = "1.9"
 projects[imce_wysiwyg] = "1.0"
+projects[imagefield_crop] = "2.0"
 projects[job_scheduler] = '2.0-alpha3'
 projects[jquery_update] = "2.7"
 projects[js_injector] = "2.1"
