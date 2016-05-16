@@ -10,10 +10,6 @@ libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/archive/v3.2.0.zip"
 
-libraries[jsonpath][directory_name] = "jsonpath"
-libraries[jsonpath][download][type] = "get"
-libraries[jsonpath][download][url] = "https://jsonpath.googlecode.com/svn/trunk/src/php/jsonpath.php"
-
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.2/ckeditor_4.0.2_standard.zip"
