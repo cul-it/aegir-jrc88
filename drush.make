@@ -3,7 +3,7 @@
 
 core = 7.x
 api = 2
-projects[drupal][version] = "7.43"
+projects[drupal][version] = "7.44"
 
 libraries[bootstrap][destination] = themes/bootstrap
 libraries[bootstrap][directory_name] = "bootstrap"
@@ -59,7 +59,6 @@ projects[imce_wysiwyg] = "1.0"
 projects[imagefield_crop] = "2.0"
 projects[job_scheduler] = '2.0-alpha3'
 projects[jquery_update] = "2.7"
-projects[js_injector] = "2.1"
 projects[libraries] = "2.2"
 projects[link] = "1.4"
 projects[linkit] = "3.5"
@@ -96,10 +95,10 @@ projects[site_mantenance_block][download][type] = "git"
 projects[site_mantenance_block][download][url] = "git@github.com:cul-it/site-under-maintenance-feature.git"
 projects[site_mantenance_block][type] = "module"
 projects[strongarm] = "2.0"
-projects[superfish] = "1.9"
+projects[superfish] = "2.0"
 projects[token] = "1.6"
 projects[uuid] = "1.0-beta1"
-projects[views] = "3.13"
+projects[views] = "3.14"
 projects[views_bootstrap] = "3.1"
 projects[views_bulk_operations] = "3.3"
 projects[views_php] = "1.0-alpha1"
