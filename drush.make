@@ -5,11 +5,6 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.44"
 
-libraries[bootstrap][destination] = themes/bootstrap
-libraries[bootstrap][directory_name] = "bootstrap"
-libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/archive/v3.2.0.zip"
-
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.2/ckeditor_4.0.2_standard.zip"
@@ -22,7 +17,7 @@ projects[ares][download][url] = "git@github.com:cul-it/ares.git"
 projects[bean] = "1.9"
 projects[block_class] = "2.3"
 projects[blockreference] = "2.3"
-projects[bootstrap] = "3.0"
+projects[bootstrap] = "3.5
 projects[ckeditor] = "1.17"
 projects[ctools] = "1.9"
 projects[cul_common][download][type] = "svn"
