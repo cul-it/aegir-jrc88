@@ -3,7 +3,7 @@
 
 core = 7.x
 api = 2
-projects[drupal][version] = "7.44"
+projects[drupal][version] = "7.52"
 
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
@@ -17,7 +17,7 @@ projects[ares][download][url] = "git@github.com:cul-it/ares.git"
 projects[bean] = "1.9"
 projects[block_class] = "2.3"
 projects[blockreference] = "2.3"
-projects[bootstrap] = "3.5"
+projects[bootstrap] = "3.8"
 projects[ckeditor] = "1.17"
 projects[ctools] = "1.9"
 projects[cul_common][download][type] = "svn"
