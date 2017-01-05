@@ -68,13 +68,14 @@ function wit_preprocess_node(&$variables) {
  *
  *  Alters titles for wit articles since Drupal titles
  *  are limited to 128 characters
- */
+
 function wit_node_view($node, $view_mode, $langcode) {
   if ($node->type == 'wit_article') {
     $node->title = strip_tags($node->field_article_lead_full[LANGUAGE_NONE][0]['value']);
     hide($node->content['field_article_lead_full']);
   }
 }
+ */
 
 /**
  * Implements hook_menu
@@ -151,9 +152,10 @@ function _wit_email_articles_to_list($articles, $date) {
   $date_object = new Datetime($date);
   $formatted_date = date_format($date_object, 'l, F d, Y');
   $body = _wit_generate_email_body($articles, $formatted_date);
-
+/**
   $to_address = 'wit-L@cornell.edu';
-
+*/
+  $to_address = 'jrc88@cornell.edu';
   $params = array(
     'subject' => 'Workplace Issues Today',
     'content' => nl2br($body),
